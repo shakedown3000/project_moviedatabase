@@ -1,0 +1,12 @@
+.all_movies {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 10px;
+}
+
+.single_movies {
+  background-color: #ccc;
+  border: 1px solid red;
+  padding: 20px;
+}
